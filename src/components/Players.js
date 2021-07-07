@@ -22,9 +22,9 @@ function Players(props) {
 					{isLoading ? (
 						<Loader />
 					) : (
-						players.map((player) => {
+						players.map((player, i) => {
 							return (
-								<Link class="card" to={`/player/${player.id}`}>
+								<Link class="card" to={`/player/${player.id}`} key={i}>
 									<div class="content">
 										<div class="header">
 											{player.first_name} {player.last_name}

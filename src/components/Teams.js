@@ -22,9 +22,9 @@ function Teams(props) {
 					{isLoading ? (
 						<Loader />
 					) : (
-						teams.map((team) => {
+						teams.map((team, i) => {
 							return (
-								<Link class="card" to={`/team/${team.id}`}>
+								<Link class="card" to={`/team/${team.id}` }key={i}>
 									<div class="content">
 										<div class="header">{team.full_name}</div>
 										<div class="meta">{team.abbreviation}</div>
