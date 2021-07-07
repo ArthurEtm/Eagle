@@ -1,0 +1,30 @@
+.home {
+	background-color: $primary;
+	height: 100vh;
+	&-content {
+		text-align: center;
+		padding-top: 15rem;
+
+		&_title {
+			font-size: 4rem;
+			color: white;
+		}
+
+		&_subtext {
+			width: 50rem;
+			margin: 0 auto;
+			font-size: 1.5rem;
+			color: white;
+		}
+
+		&_actions {
+			margin-top: 2rem;
+		}
+
+		&-button {
+			&_teams {
+				margin-right: 1rem;
+			}
+		}
+	}
+}

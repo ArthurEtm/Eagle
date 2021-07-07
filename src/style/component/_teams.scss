@@ -1,0 +1,36 @@
+.teams {
+	&-title {
+		height: 20rem;
+		font-size: 3rem;
+		background-color: $secondary;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-weight: 100;
+		color: white;
+	}
+
+	&-card {
+		margin-top: 3rem !important;
+	}
+}
+
+.team {
+	&-title {
+		height: 20rem;
+		font-size: 3rem;
+		background-color: $secondary;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-weight: 100;
+		color: white;
+	}
+
+	&-body {
+		width: 50% !important;
+		margin: 3rem auto !important;
+		text-align: center !important;
+		padding: 3rem !important;
+	}
+}
